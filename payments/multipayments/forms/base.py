@@ -2,7 +2,7 @@ from uuid import uuid4
 
 from django import forms
 from django.contrib.sites import models as sites
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from cartridge.shop import checkout
 from cartridge.shop import forms as shopforms
 from cartridge.shop import models as shop

@@ -1,4 +1,4 @@
-from django.core.urlresolvers import get_callable
+from django.urls import get_callable
 from mezzanine import template
 from mezzanine.conf import settings
 
